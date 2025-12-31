@@ -5,6 +5,9 @@ This is the repository for the LinkedIn Learning course Learning Linux Command L
 
 Knowledge of the Linux command line is critical for anyone who uses this open-source operating system. For many tasks, it's more efficient and flexible than a graphical environment. For administrators, it plays a vital role in configuring permissions and working with files. In this course, experienced instructor Scott Simpson discusses the basics of setting up your environment and working with the Linux command line using the Bash shell. He focuses on practical Linux commands with examples that help you navigate through the file and folder structure, edit text, and set permissions. Scott also discusses some of the common command-line tools, such as grep, awk, and sed, and command-line apps such as the nano and Vim text editors. He covers output redirection and the PATH variable, then gives you a peek into more advanced topics. The course wraps up with a look at how to install and update software with a package manager.
 
+## Documentation
+
+- [CAD 8 Communications Guide (PDF)](docs/cad-communications.pdf) - Technical guide covering CAD 8 system architecture and communication patterns
 
 ### Instructor
 
