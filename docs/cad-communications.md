@@ -178,7 +178,7 @@ FireCAD_API-->>REST_JS: 200 + modifiers[]
 REST_JS->>FireCAD_API: For each modifier: GET /responses/{rin}
 FireCAD_API-->>REST_JS: 200 + responses[]
 REST_JS-->>UI: Combined modifiers + responses
-UI->>REST_JS: addResponses / modifiyResponses / deleteResponses
+UI->>REST_JS: addResponses / modifyResponses / deleteResponses
 REST_JS->>FireCAD_API: POST/PUT/DELETE on /responses or /modifiers
 FireCAD_API-->>REST_JS: Status + new RINs / data
 ```
@@ -261,7 +261,7 @@ loop per modifier
   Axios->>FireCAD_API: GET /responses/{rin}
   FireCAD_API-->>Axios: 200 responses[]
 end
-UI->>Axios: addResponses/modifiyResponses/deleteResponses
+UI->>Axios: addResponses/modifyResponses/deleteResponses
 Axios->>FireCAD_API: POST/PUT/DELETE /responses
 FireCAD_API-->>Axios: 200 + updated RINs/data
 ```
